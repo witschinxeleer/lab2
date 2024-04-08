@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-content{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.header {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.about-us{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    text-align: center;
+ 
+}
+.our-services{
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+}
+
+.section-image{
+    height: 400px;
+    width: 600px;
+}
+
+
+.services-figures{
+    display: flex;
+    align-items: center;
+
+}
+
+.figures{
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 5px;
+
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
